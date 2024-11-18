@@ -1,0 +1,73 @@
+/*---------- Header ----------*/
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: gainsboro;
+    justify-items: end;
+    padding: 50px;
+    gap: 100px;
+}
+
+.a__header-menu {
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    background-color: var(--a-header-menu-bg);
+    padding: 10px;
+    gap: 10px;
+    border: 1px black solid;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.a__header-menu:hover {
+    background-color: var(--a-header-menu-hover-bg);
+}
+
+.nav__header {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.nav__header li {
+    display: flex;
+    list-style-type: none;
+}
+
+/*---------- Main ----------*/
+.main {
+    padding: 50px;
+}
+
+.title-1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: var(--title-1-bg);
+    padding: 20px 50px 20px 50px;
+    border-radius: var(--border-radius-5);
+    margin-bottom: 20px;
+
+}
+
+.title-2 {
+    display: inline-flex;
+    font-size: 24px;
+    font-weight: bold;
+    padding: var(--padding-title);
+    background-color: var(--title-2-bg);
+    border-radius: var(--border-radius-5);
+}
+
+
+/*---------- Footer ----------*/
+.footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background-color: #000;
+    height: 300px;
+}
+

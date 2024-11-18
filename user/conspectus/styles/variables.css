@@ -1,0 +1,8 @@
+:root {
+    --title-1-bg: lightgray;
+    --title-2-bg: lightgray;
+    --a-header-menu-bg: lightgray;
+    --a-header-menu-hover-bg: darkgray;
+    --border-radius-5: 5px;
+    --padding-title: 10px 20px 10px 20px;
+}
