@@ -1,2 +1,5 @@
+github repo:
+https://github.com/sergeybabann/specialist-programming_workshop.original-babann
+
 1 day
-1 video stop: 
+1 video stop: 0.48.59
