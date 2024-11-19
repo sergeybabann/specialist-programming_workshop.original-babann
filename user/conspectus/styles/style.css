@@ -12,7 +12,7 @@
     display: flex;
     color: #000;
     text-decoration: none;
-    background-color: var(--a-header-menu-bg);
+    background-color: var(--bg-1);
     padding: 10px;
     gap: 10px;
     border: 1px black solid;
@@ -21,7 +21,7 @@
     border-radius: 3px;
 }
 .a__header-menu:hover {
-    background-color: var(--a-header-menu-hover-bg);
+    background-color: var(--bg-2);
 }
 
 .nav__header {
@@ -40,12 +40,27 @@
     padding: 50px;
 }
 
+.a__1 {
+    background-color: var(--bg-1);
+    padding: 6px;
+    border-radius: var(--border-radius-5);
+    color: #000;
+    text-decoration: none;
+}
+
+.a__1:hover {
+    background-color: var(--bg-2);
+    color: #fff;
+
+}
+
 .title-1 {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
+    color: var(--color-1);
     background-color: var(--title-1-bg);
     padding: 20px 50px 20px 50px;
     border-radius: var(--border-radius-5);
@@ -56,9 +71,16 @@
 .title-2 {
     display: inline-flex;
     font-size: 24px;
-    font-weight: bold;
     padding: var(--padding-title);
     background-color: var(--title-2-bg);
+    border-radius: var(--border-radius-5);
+}
+
+.title-3 {
+    display: inline-flex;
+    font-size: 24px;
+    padding: var(--padding-title);
+    background-color: var(--title-3-bg);
     border-radius: var(--border-radius-5);
 }
 
