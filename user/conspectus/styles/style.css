@@ -15,11 +15,12 @@
     background-color: var(--bg-1);
     padding: 10px;
     gap: 10px;
-    border: 1px black solid;
+    border: var(--border-1);
     width: 100px;
     font-size: 20px;
     border-radius: 3px;
 }
+
 .a__header-menu:hover {
     background-color: var(--bg-2);
 }
@@ -54,14 +55,14 @@
 
 }
 
-.title-1 {
+.topic-1 {
     display: flex;
     justify-content: space-between;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
     color: var(--color-1);
-    background-color: var(--title-1-bg);
+    background-color: var(--topic-1-bg);
     padding: 20px 50px 20px 50px;
     border-radius: var(--border-radius-5);
     margin-bottom: 20px;
@@ -69,11 +70,14 @@
 }
 
 .title-2 {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    width: 800px;
     font-size: 24px;
     padding: var(--padding-title);
     background-color: var(--title-2-bg);
     border-radius: var(--border-radius-5);
+    margin-bottom: 10px;
 }
 
 .title-3 {
@@ -84,6 +88,11 @@
     border-radius: var(--border-radius-5);
 }
 
+.subtitle-2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 30px 0 0 50px;
+}
 
 /*---------- Footer ----------*/
 .footer {

@@ -1,14 +1,14 @@
-package java11;
+package day1_1;
 
-import java.util.Scanner; // library connection
+import java.util.Scanner;
 
-public class day11 {
-    public static void main (String[] args) { // entry point
+public class day1_1a {
+    public static void main(String[] args) { // entry point
         Scanner scan = new Scanner(System.in); // Scanner - object type, scan - object name
 
-        int a,b,c; // a - variable, int - type
+        int a, b, c; // a - variable, int - type
 
-        System.out.println("input 3 int:"); // print the text - input 3 int
+        System.out.println("input 3 int:"); // print the text-input 3 int
         a = scan.nextInt(); // a - variable, scan - object, nextInt() - method
         b = scan.nextInt();
         c = scan.nextInt();

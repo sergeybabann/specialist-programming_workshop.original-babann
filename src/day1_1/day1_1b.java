@@ -1,14 +1,14 @@
-package java11;
+package day1_1;
 
-import java.util.Scanner; // library connection
+import java.util.Scanner;
 
-public class day11_2 {
-    public static void main (String[] args) { // entry point
+public class day1_1b {
+    public static void main(String[] args) { // entry point
         Scanner scan = new Scanner(System.in); // Scanner - object type, scan - object name
 
-        double a,b,c; // a - variable, double - type
+        double a, b, c; /* a - variable, double - type */
 
-        System.out.println("input 3 double:"); // print the text - input 3 double
+        System.out.println("input 3 double:"); // print the text -/ input 3 double
         a = scan.nextDouble(); // a - variable, scan - object, nextDouble() - method,
         b = scan.nextDouble();
         c = scan.nextDouble();

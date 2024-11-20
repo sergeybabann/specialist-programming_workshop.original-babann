@@ -1,10 +1,13 @@
 :root {
-    --title-1-bg: rgba(79, 79, 79, 10); /*  */
+    --topic-1-bg: rgba(79, 79, 79, 10); /*  */
     --title-2-bg: lightgray;
     --title-3-bg: rgba(189, 183, 107, 10); /* DarkKhaki */
     --bg-1: lightgray;
     --bg-2: darkgray;
     --color-1: #fff;
+    --color-2: red;
     --border-radius-5: 5px;
     --padding-title: 10px 20px 10px 20px;
+    --border-1: #000 1px solid;
+    --border-1-hover: red 1px solid;
 }
