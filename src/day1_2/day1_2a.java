@@ -1,7 +1,5 @@
 package day1_2;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
 
 public class day1_2a {
